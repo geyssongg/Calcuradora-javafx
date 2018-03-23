@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.edu.ifro.CalculadoraController">
+   <children>
+      <TextField fx:id="txtNumero1" layoutX="83.0" layoutY="101.0" />
+      <TextField fx:id="txtNumero2" layoutX="362.0" layoutY="101.0" />
+      <Label layoutX="83.0" layoutY="71.0" text="Numero 1" />
+      <Label layoutX="362.0" layoutY="71.0" text="Numero 2" />
+      <Label layoutX="272.0" layoutY="235.0" text="Resultado" />
+      <TextField fx:id="txtResultado" layoutX="226.0" layoutY="271.0" />
+      <Button fx:id="btnSomar" layoutX="111.0" layoutY="167.0" mnemonicParsing="false" onAction="#somar" prefHeight="25.0" prefWidth="74.0" text="Somar" />
+      <Button fx:id="btnMenos" layoutX="214.0" layoutY="167.0" mnemonicParsing="false" onAction="#subtrair" prefHeight="25.0" prefWidth="74.0" text="Diminuir" />
+      <Button fx:id="btnMultiplicar" layoutX="315.0" layoutY="167.0" mnemonicParsing="false" onAction="#multiplicar" prefHeight="25.0" prefWidth="74.0" text="Multiplicar" />
+      <Button fx:id="btnDividir" layoutX="416.0" layoutY="167.0" mnemonicParsing="false" onAction="#dividir" prefHeight="25.0" prefWidth="74.0" text="Dividr" />
+   </children>
+</AnchorPane>
